@@ -27,7 +27,7 @@ print(states[0])
 print(states[-1])
 
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
-print(f"{states[1].title()} is south of {states[0].title()}")
+print(f"{states[1].upper()} is south of {states[0].upper()}")
 
 
 
@@ -62,3 +62,4 @@ print(states)
 #Using the reverse method reverse the list and print it
 states.reverse()
 print(states)
+
